@@ -67,10 +67,12 @@ namespace Senka_QAkurs.Features
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("User can add product tocart")]
         [NUnit.Framework.CategoryAttribute("PDP")]
+        [NUnit.Framework.CategoryAttribute("Test")]
         public virtual void UserCanAddProductTocart()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("User can add product tocart", new string[] {
-                        "PDP"});
+                        "PDP",
+                        "Test"});
 #line 7
 this.ScenarioSetup(scenarioInfo);
 #line 8
