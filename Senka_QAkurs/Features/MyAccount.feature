@@ -26,3 +26,5 @@ Scenario: User can open my wishlist page
 	Then user will be logged in
 	And user's full name is displayed
 
+	
+

@@ -21,6 +21,11 @@ namespace Senka_QAkurs.Helpers
         public const string State = "New York";
         public const string FullName = "";
 
+        public const string ProductName = "";
+        public const string name = "";
+
+
+
 
 
     }

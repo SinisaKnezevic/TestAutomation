@@ -18,7 +18,7 @@ namespace Senka_QAkurs.Pages
         public By emailField = By.Id("email_create");
         public By createAcc = By.Id("SubmitCreate");
 
-        public AuthenticationPage()
+        public AuthenticationPage(IWebDriver driver)
         {
             this.driver = driver;
             var wait=new WebDriverWait(driver, TimeSpan.FromSeconds(60));
@@ -26,9 +26,6 @@ namespace Senka_QAkurs.Pages
             
         }
 
-        public AuthenticationPage(IWebDriver driver)
-        {
-            this.driver = driver;
-        }
+       
     }
 }

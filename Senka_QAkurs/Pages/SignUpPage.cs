@@ -25,17 +25,14 @@ namespace Senka_QAkurs.Pages
         public By addressAlias = By.Id("alias");
         public By mobile = By.Id("phone_mobile");
         public By registerBtn = By.Id("submitAccount");
-        public SignUpPage()
+        public SignUpPage(IWebDriver driver)
         {
             this.driver = driver;
             var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(60));
             wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementExists(By.Id("account-creation_form")));
         }
 
-        public SignUpPage(IWebDriver driver)
-        {
-            this.driver = driver;
-        }
+        
 
 
     }

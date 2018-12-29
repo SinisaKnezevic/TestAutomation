@@ -54,5 +54,11 @@ namespace Senka_QAkurs.Helpers
             var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(15));
             return wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementIsVisible(textElement));
         }
+
+        public string ReturnTextFromElement(By selector)
+        {
+            return driver.FindElement(selector).GetAttribute("textContent");
+        }
+
     }
 }
