@@ -3,7 +3,7 @@
 	As a math idiot
 	I want to be told the sum of two numbers
 
-@PDP @Test
+@PDP
 Scenario: User can add product tocart
 	Given user open dresses section
 	And opens first product from the list

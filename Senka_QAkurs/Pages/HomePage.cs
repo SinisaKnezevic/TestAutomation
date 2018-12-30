@@ -14,6 +14,8 @@ namespace Senka_QAkurs.Pages
 
         public By SignIn = By.ClassName("login");
         public By dresses = By.CssSelector(".sf-menu [title='Dresses']");
+        public By search = By.Id("search_query_top");
+        public By searchBtn = By.ClassName("button-search");
         public HomePage(IWebDriver driver)
         {
             this.driver = driver;

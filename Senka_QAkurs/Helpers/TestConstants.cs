@@ -23,6 +23,7 @@ namespace Senka_QAkurs.Helpers
 
         public const string ProductName = "";
         public const string name = "";
+         
 
 
 
